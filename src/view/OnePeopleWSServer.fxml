@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="action.OnepeopleWSServer">
+   <children>
+      <Button fx:id="btnStart" layoutX="196.0" layoutY="115.0" mnemonicParsing="false" onAction="#btnClickStart" prefHeight="54.0" prefWidth="111.0">
+         <font>
+            <Font size="25.0" />
+         </font></Button>
+      <Label layoutX="80.0" layoutY="194.0" text="Date/Time of last clock data processed">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label fx:id="cutOffLbl" alignment="CENTER" contentDisplay="CENTER" layoutX="110.0" layoutY="235.0" prefHeight="30.0" prefWidth="282.0" textAlignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Button layoutX="155.0" layoutY="290.0" mnemonicParsing="false" onAction="#btnRefreshClick" text="Refresh Date/Time">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
